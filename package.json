@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass": "sass styles/main.scss styles.css -w",
+    "compile:sass": "sass styles/main.scss styles.css",
+    "compile": "sass --no-source-map styles/main.scss styles.css",
+    "dev": "concurrently --kill-others \"yarn watch:sass\" \"live-server .\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "sass": "^1.82.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "live-server": "^1.2.2"
+  }
 }
