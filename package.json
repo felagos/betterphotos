@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass styles/main.scss styles.css -w",
-    "compile:sass": "sass styles/main.scss styles.css",
-    "compile": "sass --no-source-map styles/main.scss styles.css",
+    "watch:sass": "sass --no-source-map styles/main.scss styles.css -w",
+    "compile:sass": "sass --no-source-map styles/main.scss styles.css",
     "dev": "concurrently --kill-others \"yarn watch:sass\" \"live-server .\""
   },
   "keywords": [],
