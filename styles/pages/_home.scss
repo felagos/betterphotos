@@ -1,0 +1,15 @@
+.page {
+    display: flex;
+    justify-content: center;
+    background-image:
+        url(https://bytegrad.com/course-assets/css/2/pattern.svg),
+        linear-gradient(to bottom right, #8FD861, #2CC695 90%);
+    scrollbar-width: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+.logo {
+	margin-right: 48px;
+	margin-left: 25px;
+}
+
+.nav {
+	margin-left: auto;
+
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		transition: all .2s;
+		padding: 0 20px;
+		height: 65px;
+
+		&:hover,
+		&:focus {
+			background-color: #EEF3F4;
+		}
+	}
+
+	&__icon {
+		color: #A9B4B7;
+		font-size: 22px;
+	}
+}
