@@ -1,0 +1,14 @@
+@use "../base/variables" as *;
+
+.intro {
+	border-bottom: 1px solid rgba(#fff, 0.1);
+	padding:  40px 35px 45px;
+
+	&__text {
+		margin-top: 12px;
+		color: $color-grey-light;
+		font-size: 16px;
+		line-height: 1.8;
+	}
+
+}

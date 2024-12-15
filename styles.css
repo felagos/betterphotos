@@ -28,6 +28,26 @@ a {
   text-decoration: none;
 }
 
+.u-italic {
+  font-style: italic;
+}
+
+.u-accent {
+  color: #2CC695;
+}
+
+.u-underline {
+  text-decoration: underline;
+}
+
+.u-bold {
+  font-weight: 500;
+}
+
+.u-bolder {
+  font-weight: 700;
+}
+
 .app {
   display: grid;
   grid-template-rows: 65px 724px 1fr;
@@ -46,12 +66,6 @@ a {
   align-items: center;
 }
 
-.sidebar {
-  grid-row: 2/4;
-  grid-column: 1/2;
-  background-color: #11271F;
-}
-
 .gallery {
   grid-row: 2/3;
   grid-column: 2/3;
@@ -62,6 +76,12 @@ a {
   grid-row: 3/4;
   grid-column: 2/3;
   background-color: #E7EDEE;
+}
+
+.sidebar {
+  grid-row: 2/4;
+  grid-column: 1/2;
+  background-color: #11271F;
 }
 
 .logo {
@@ -126,6 +146,78 @@ a {
 .search__submit:focus {
   color: #555A5B;
 }
+.social {
+  display: flex;
+  margin: 25px 0 30px;
+  justify-content: center;
+}
+.social__img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.social__img:not(:first-child) {
+  margin-right: -8px;
+}
+.social__container {
+  margin-left: 10px;
+}
+.social__number {
+  font-weight: 500;
+}
+.social__text {
+  margin-top: -5px;
+  color: #A9B4B7;
+  font-size: 12px;
+}
+
+.auth__text {
+  margin-top: 8px;
+  color: #A9B4B7;
+  font-size: 12px;
+  text-align: center;
+}
+.auth__link {
+  font-weight: 500;
+  color: #2CC695;
+}
+
+.btn {
+  display: block;
+  background-color: #16B47F;
+  padding: 12px 0;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.btn:hover, .btn:focus {
+  background-color: #119267;
+}
+.btn__icon {
+  margin-left: 2px;
+}
+
+.intro {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 35px 45px;
+}
+.intro__text {
+  margin-top: 12px;
+  color: #EEF3F4;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.first-heading {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
 .page {
   display: flex;
   justify-content: center;
@@ -138,5 +230,3 @@ a {
 .page::-webkit-scrollbar {
   display: none;
 }
-
-/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+.auth {
+
+	&__text {
+		margin-top: 8px;
+		color: $color-grey-medium;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	&__link {
+		font-weight: 500;
+		color: $color-accent;
+	}
+
+}
