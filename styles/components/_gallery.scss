@@ -22,6 +22,7 @@
 
 	&__img-wrapper {
 		position: relative;
+		overflow: hidden;
 
 		&:nth-child(1) {
 			grid-row: 1 / 3;
