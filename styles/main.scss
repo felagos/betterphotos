@@ -3,6 +3,7 @@
 @use "./base/variables";
 @use "./base/reset";
 @use "./base/utilities";
+@use "./base/keyframes";
 
 @use "./layout/app";
 @use "./layout/header";
@@ -18,5 +19,6 @@
 @use "./components/heading";
 @use "./components/upload";
 @use "./components/footer";
+@use "./components/gallery";
 
 @use "./pages/home";
