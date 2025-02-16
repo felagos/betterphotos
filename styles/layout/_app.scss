@@ -7,4 +7,14 @@
 	background-color: #fff;
 	width: 1240px;
 	height: 1030px;
+
+	@media (max-width: 1300px) {
+		width: 100%;
+		margin: 0;
+	}
+
+	@media (max-width: 355px) {
+		grid-template-columns: 1fr;
+	}
+
 }

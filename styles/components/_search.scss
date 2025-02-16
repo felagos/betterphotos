@@ -1,5 +1,9 @@
 .search {
     position: relative;
+		
+		@media (max-width: 815px) {
+			display: none;
+		}
 
     &__input {
         transition: all .2s;
@@ -33,8 +37,5 @@
         &:focus {
             color: #555A5B;
         }
-    }
-
-    &__icon {
     }
 }

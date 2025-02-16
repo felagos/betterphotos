@@ -4,6 +4,15 @@
 	display: flex;
 	gap: 20px;
 
+	@media (max-width: 1130px) {
+		flex-direction: column;
+		padding: 20px 20px;
+	}
+
+	@media (max-width: 815px) {
+		display: none;
+	}
+
 	.step {
 		display: flex;
 		flex-direction: column;
@@ -41,6 +50,10 @@
 			color: $color-grey-dark;
 			font-size: 12px;
 			line-height: 1.8;
+
+			@media (max-width: 1130px) {
+				font-size: 16px;
+			}
 		}
 		
 	}

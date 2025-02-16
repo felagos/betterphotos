@@ -25,8 +25,9 @@
 	font-size: 34px;
 	line-height: 1;
 	text-transform: uppercase;
+	max-height: calc(2em + 2px);
+	overflow: hidden;
 }
-
 
 .second-heading {
 	color: #161616;
