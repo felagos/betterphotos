@@ -1,3 +1,5 @@
+@use "../base/functions" as *;
+
 .search {
     position: relative;
 		
@@ -14,7 +16,7 @@
         width: 405px;
         height: 34px;
         color: #555A5B;
-        font-size: 0.8125rem;
+        font-size: toRem(13);
 
         &::placeholder {
             color: #A9B4B7;
@@ -32,7 +34,7 @@
         transition: all .2s;
         cursor: pointer;
         color: #A9B4B7;
-        font-size: 0.937rem;
+        font-size: toRem(15);
 
         &:focus {
             color: #555A5B;
